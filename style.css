@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background: #ededed;
+}
+
+.root {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.my__name,
+.my__nameEN {
+    padding: 25px;
+    text-align: center;
+}
+
+.my__name h2,
+.my__name h3,
+.my__nameEN h2,
+.my__nameEN h3 {
+    padding: 5px;
+}
+
+.my__name h3,
+.my__nameEN h3 {
+    border-bottom: 1px solid #adadad;
+}
+
+.my__name img,
+.my__nameEN img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.connection__list,
+.connectionEN__list {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connection__list li,
+.connectionEN__list li  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.connection__list li a,
+.connectionEN__list li a {
+    text-decoration: none;
+}
+
+.about__me h2,
+.aboutEN__me h2  {
+    margin-top: 10px;
+}
+
+.aboutEN__me h2 {
+    text-align: end;
+}
+
+.about__me p,
+.aboutEN__me p {
+    font-size: 28px;
+    text-align: center;
+}
+
+.about__me p a,
+.aboutEN__me p a {
+    text-decoration: none;
+}
+
+.about__me__list,
+.aboutEN__me__list {
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: end;
+}
+
+.cutawayRU__main img,
+.cutawayEN__main img {
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+.ab__Me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin: 30px 0 30px 0;
+    border: 2px solid #adadad;
+}
+
+.portf__list,
+.portfEN__list {
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.skill h2,
+.skillEN h2 {
+    border-bottom: 1px solid #adadad;
+    margin-top: 10px;
+}
+
+.skillEN h2 {
+    text-align: end;
+}
+
+.portfEN__list {
+    text-align: end;
+}
+
+.pacifier {
+    border: 2px solid #adadad;
+}
