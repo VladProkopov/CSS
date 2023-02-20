@@ -6,129 +6,132 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-
-    background: #ededed;
+    background-color: #dedbdb;
 }
 
 .root {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
 }
 
-.my__name,
-.my__nameEN {
-    padding: 25px;
+.mainRU {
+    background-color: #eae9f1;
+    width: 70%;
+    box-shadow: 3px 3px 20px 3px black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url(/images/pattern2.png);
+}
+
+.banerRU {
+    background-color: #2743e3;
     text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
 }
 
-.my__name h2,
-.my__name h3,
-.my__nameEN h2,
-.my__nameEN h3 {
-    padding: 5px;
+.banerRU a  {
+    color: white;
 }
 
-.my__name h3,
-.my__nameEN h3 {
-    border-bottom: 1px solid #adadad;
-}
-
-.my__name img,
-.my__nameEN img {
-    width: 300px;
-    height: 305px;
-    border-radius: 50%;
-}
-
-.connection__list,
-.connectionEN__list {
-    list-style: none;
+.about__me {
     display: flex;
-    gap: 5px;
-    flex-direction: column;
-    align-items: center;
+    gap: 40px;
+
+    margin-top: 20px;
+
+    line-height: 35px;
+
+    border-bottom: 2px solid #adadad;
 }
 
-.connection__list li,
-.connectionEN__list li  {
+.about__me__img img{
+    height: 350px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.list__me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about__me__list, 
+.connection__list,
+.quality,
+.language,
+.skills  {
+    list-style: none;
+}
+
+.about__me__list li, 
+.connection__list li {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.connection__list li a,
-.connectionEN__list li a {
-    text-decoration: none;
-}
-
-.about__me h2,
-.aboutEN__me h2  {
-    margin-top: 10px;
-}
-
-.aboutEN__me h2 {
-    text-align: end;
-}
-
-.about__me p,
-.aboutEN__me p {
+.item1 {
     font-size: 28px;
-    text-align: center;
-}
-
-.about__me p a,
-.aboutEN__me p a {
-    text-decoration: none;
-}
-
-.about__me__list,
-.aboutEN__me__list {
-    line-height: 25px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    list-style: none;
-    text-align: end;
-}
-
-.cutawayRU__main img,
-.cutawayEN__main img {
-    padding: 15px;
-    width: 500px;
-    height: 300px;
-}
-
-.ab__Me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 75px;
-    margin: 30px 0 30px 0;
-    border: 2px solid #adadad;
-}
-
-.portf__list,
-.portfEN__list {
-    line-height: 25px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    list-style: none;
-}
-
-.skill h2,
-.skillEN h2 {
     border-bottom: 1px solid #adadad;
-    margin-top: 10px;
 }
 
-.skillEN h2 {
-    text-align: end;
+.item2,
+.item3 {
+    font-size: 22px;
 }
 
-.portfEN__list {
-    text-align: end;
+.itemh {
+    background-color: #2743e3;
+    color: white;
+    border-radius: 10px;
 }
 
-.pacifier {
-    border: 2px solid #adadad;
+.description {
+    display: flex;
+}
+
+.me {
+    width: 350px;
+    border-right: 2px solid #adadad;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.my__education,
+.my__job {
+    padding: 10px;
+}
+
+.my__education h2,
+.my__job h2{
+    margin-bottom: 10px;
+    background-color: #2743e3;
+    color: white;
+    border-radius: 10px;
+}
+
+.job {
+    line-height: 30px
+}
+
+.job h3 {
+   font-size: 28px;
+}
+
+.job span {
+    font-size: 16px;
+}
+
+.job p {
+    font-size: 22px;
+    border-bottom: 2px solid #2743e3;
+}
+
+
+.my__education span {
+    font-size: 24px
 }
